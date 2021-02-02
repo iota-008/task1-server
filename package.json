@@ -1,0 +1,28 @@
+{
+	"name": "server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "supervisor index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"bcrypt": "^5.0.0",
+		"body-parser": "^1.19.0",
+		"connect-mongo": "^3.2.0",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"express-session": "^1.17.1",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.11.14",
+		"passport-accesstoken": "^0.1.0",
+		"passport-jwt": "^4.0.0",
+		"require": "^2.4.20",
+		"supervisor": "^0.12.0"
+	}
+}
